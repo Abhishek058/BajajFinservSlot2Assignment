@@ -20,9 +20,9 @@ const template = {
     "alphebets": [],
   }
 
-app.get('/bfhl', (req, res)=>{
+app.get("/bfhl", (req, res) => {
   res.send("Welcome to BFHL endpoint");
-}
+});
 
 app.post('/bfhl', (req, res)=>{
   const {data} = req.body;
